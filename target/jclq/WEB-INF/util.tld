@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+
+	<description>JstlUtil</description>
+	<tlib-version>1.0</tlib-version>
+	<short-name>JstlUtil</short-name>
+	<uri>/WEB-INF/util.tld</uri>
+
+	<function>
+		<description>util</description>
+		<name>lotName</name>
+		<function-class>com.ruyicai.appteam.util.JstlUtil</function-class>
+		<function-signature>java.lang.String getLotName(java.lang.String )
+		</function-signature>
+	</function>
+
+	<function>
+		<name>date</name>
+		<function-class>com.ruyicai.appteam.util.JstlUtil</function-class>
+		<function-signature>java.lang.String getDate(java.util.Date)</function-signature>
+	</function>
+
+</taglib>
